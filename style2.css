@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+#head{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+/* #milk{
+    background-color:rgb(241, 192, 235);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}*/
+#todo-form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: center;
+}
+
+/*.form-to-do{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}*/
+
+#add-task{
+    background-color:#FCC6FF ;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+#new-task{
+    background-color: #FCC6FF;
+    color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.header {
+    background-color: #4635B1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
