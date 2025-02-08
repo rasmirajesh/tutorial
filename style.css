@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #4635B1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bottom-plus {
+    position: fixed; /* Fixed to the bottom right */
+    bottom: 20px;
+    right: 20px;
+}
+
+.bottom-plus button {
+    background-color: #ffdd59; /* Yellow background */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 50%; /* Make it round */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #575757;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+}
+
+.signup-prompt a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #4635B1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.quote{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-area {
+    width: 80%; /* Adjust image width */
+    margin-bottom: 20px;
+}
+
+.image-area img {
+    width: 50%;
+    height: auto;
+    display: block; /* Prevents image from creating extra space */
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333;
+}
+
+.contai {
+    display: flex;
+    justify-content: center; /* Center the block horizontally */
+    padding: 20px;
+}
+
+.cont {
+    display: flex; /* Use flexbox for the inner block */
+    gap: 20px; /* Space between the boxes */
+}
+
+.box {
+    background-color: #dbd8f2;
+    color: rgb(35, 28, 254);
+    padding: 20px;
+    border-radius: 4px;
+    flex: 1; /* Make boxes take equal space */
+    text-align: center;
+}
+
+.containe {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+.extra {
+    flex: 1 1 200px; /* Grow and shrink, with a base width of 200px */
+    height: 150px;
+    
+}
